@@ -1,0 +1,26 @@
+<DOCTYPE html> 
+    <html lang="en"> 
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device.width, initial-scale-1.0"> 
+<title> Document</title>
+
+</head>
+<body> 
+<form action="/producto/agregarProducto " method="POST">
+    <label for="id">id</label>
+    <input type="id" name="id" value= "<%=producto.id %>"> ><br>
+    <label for="stock">stock</label>
+<input type="text" name="stock" value= "<%=producto.stock %>"> ><br>
+<label for="descripcion">descripcion</label>
+<input type="text" name="descripcion" value= "<%=producto.descripcion %>"> ><br>
+<label for="precio">precio</label>
+<input type="text" name="precio" value= "<%=producto.precio %>"> <br>
+<label for="marca">marca</label>
+<input type="text" name="marca" value= "<%=producto.marca %>"> ><br>
+<label for="nombre">nombre</label>
+<input type="text" name= "nombre" value= "<%=producto.nombre %>"> > <br>
+<button type="submit"> agregar </button>
+</form>  
+</body>
+</html>
